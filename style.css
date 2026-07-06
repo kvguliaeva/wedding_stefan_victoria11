@@ -1035,8 +1035,13 @@ html{scroll-behavior:smooth}body{margin:0;background:var(--section-bg);overflow-
 .yandex-form-wrap iframe{
   min-height:0!important;
 }
+/* Отступ после Яндекс Формы */
+.sm-questionnaire {
+    margin-bottom: 80px;
+}
 @media(max-width:500px){
   .yandex-form-wrap iframe{
     min-height:0!important;
   }
+
 }
